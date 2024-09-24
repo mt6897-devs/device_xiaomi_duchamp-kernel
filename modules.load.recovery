@@ -81,14 +81,6 @@ drm_dma_helper.ko
 mtk_panel_ext.ko
 panel-n11a-42-02-0a-dsc-vdo.ko
 panel-n11a-41-02-0b-dsc-vdo.ko
-panel-alpha-jdi-nt36672e-vdo-60hz.ko
-panel-alpha-jdi-nt36672e-vdo-120hz.ko
-panel-alpha-jdi-nt36672e-cphy-vdo.ko
-panel-alpha-jdi-nt36672e-vdo-120hz-hfp.ko
-panel-truly-td4330-cmd.ko
-panel-truly-nt35595-cmd.ko
-panel-nt37801-cmd-fhd.ko
-panel-samsung-ana6705-cmd.ko
 mtk-afe-external.ko
 mediatek-drm-gateic.ko
 mediatek-drm-panel-drv.ko
@@ -124,7 +116,6 @@ rpmb.ko
 rpmb-mtk.ko
 ufs-mediatek-mod.ko
 ufs-mediatek-dbg.ko
-mi_memory.ko
 perf_helper.ko
 pidmap.ko
 mtk-pmic-keys.ko
