@@ -1,3 +1,4 @@
+gzvm.ko
 kheaders.ko
 zsmalloc.ko
 libarc4.ko

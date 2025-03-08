@@ -95,7 +95,6 @@ uarthub_drv.ko
 phy-mtk-xsphy.ko
 xhci-mtk-hcd-v2.ko
 mtu3.ko
-usb_boost.ko
 mux_switch.ko
 ps5170.ko
 usb_dp_selector.ko
@@ -116,7 +115,6 @@ rpmb.ko
 rpmb-mtk.ko
 ufs-mediatek-mod.ko
 ufs-mediatek-dbg.ko
-perf_helper.ko
 pidmap.ko
 mtk-pmic-keys.ko
 mtk-kpd.ko
@@ -148,7 +146,6 @@ mtk_pd_charging.ko
 mtk_pep20.ko
 mtk_pep.ko
 bq28z610.ko
-xm_power.ko
 sc858x_charger.ko
 pd_single_cp_manager.ko
 mtk_charger_framework.ko
@@ -171,7 +168,6 @@ smpu.ko
 smpu-hook-v1.ko
 emi-slb.ko
 mtk-socinfo.ko
-usb_meta.ko
 dbg_error_flag.ko
 bus-parity.ko
 last_bus.ko
@@ -196,4 +192,3 @@ mpbe.ko
 focaltech_touch.ko
 xiaomi_touch.ko
 goodix_core.ko
-xiaomi_wifi_gpio.ko
