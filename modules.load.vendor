@@ -204,4 +204,3 @@ xlogchar.ko
 hardwareinfo.ko
 cam_log.ko
 si_haptic.ko
-xiaomi_wifi_gpio.ko

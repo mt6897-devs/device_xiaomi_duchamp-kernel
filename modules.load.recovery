@@ -196,4 +196,3 @@ mpbe.ko
 focaltech_touch.ko
 xiaomi_touch.ko
 goodix_core.ko
-xiaomi_wifi_gpio.ko
