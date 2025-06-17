@@ -63,6 +63,7 @@ chmod -x kernel
 for TARGET in system vendor vendor_ramdisk; do
     info "Copying GKI modules to $TARGET..."
     find "$DIST_DIR" -type f -name '*.ko' -exec cp {} "$TARGET/" \;
+    cp $CUSTOMER_MODULES_DIR/* $TARGET
 done
 
 # Remove unused modules

@@ -117,7 +117,6 @@ rpmb.ko
 rpmb-mtk.ko
 ufs-mediatek-mod.ko
 ufs-mediatek-dbg.ko
-perf_helper.ko
 pidmap.ko
 mtk-pmic-keys.ko
 mtk-kpd.ko

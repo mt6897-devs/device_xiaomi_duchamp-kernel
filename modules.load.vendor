@@ -117,7 +117,6 @@ imgsensor.ko
 camera_eeprom_v4l2.ko
 mtk_fpsgo.ko
 mtk_perf_ioctl.ko
-fpsgo.ko
 frs.ko
 mtk_perf_ioctl_magt.ko
 mtk-swpm.ko
@@ -201,6 +200,5 @@ focaltech_touch.ko
 xiaomi_touch.ko
 goodix_core.ko
 xlogchar.ko
-hardwareinfo.ko
 cam_log.ko
 si_haptic.ko
