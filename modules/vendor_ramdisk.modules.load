@@ -10,8 +10,6 @@ cache-parity.ko
 mtk_sync.ko
 mtk_disp_notify.ko
 mtk_printk_ctrl.ko
-zsmalloc.ko
-zram.ko
 log_store.ko
 nvmem_mtk-devinfo.ko
 mtk_wdt.ko
