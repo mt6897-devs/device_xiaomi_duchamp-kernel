@@ -72,6 +72,25 @@ git clean -f system/ >/dev/null
 git clean -f vendor/ >/dev/null
 git clean -f vendor_ramdisk/ >/dev/null
 
+# Restore specific files
+FILES_TO_RESTORE=(
+    # Missing front camera
+    vendor/camera_dpe_isp7sp.ko
+    vendor/camera_eeprom_v4l2.ko
+    vendor/imgsensor-glue.ko
+    vendor/imgsensor.ko
+    vendor/mtk_imgsys_cmdq.ko
+    vendor/mtk_imgsys_isp7sp.ko
+    # I honestly don't know
+    vendor_ramdisk/rpmb-mtk.ko
+    vendor_ramdisk/ufs-mediatek-dbg.ko
+    vendor_ramdisk/ufs-mediatek-mod.ko
+)
+info "Restoring tracked files..."
+for f in "${FILES_TO_RESTORE[@]}"; do
+     git restore "$f" || warn "Failed to restore $f"
+done
+
 # Strip the modules
 info "Stripping debug symbols from modules..."
 find . -type f -name '*.ko' -exec "$STRIP_BIN" --strip-debug {} +
