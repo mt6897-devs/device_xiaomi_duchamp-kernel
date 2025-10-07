@@ -115,6 +115,7 @@ mtk-mmc.ko
 phy-mtk-ufs.ko
 rpmb.ko
 rpmb-mtk.ko
+ufshcd_xiaomi-core.ko
 ufs-mediatek-mod.ko
 ufs-mediatek-dbg.ko
 pidmap.ko

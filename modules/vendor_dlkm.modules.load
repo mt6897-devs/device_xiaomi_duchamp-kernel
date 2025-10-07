@@ -109,8 +109,6 @@ ccd_rpmsg.ko
 mtk_cm_ipi.ko
 mtk_cm_mgr.ko
 mtk_cm_mgr_mt6897.ko
-v4l2-fwnode.ko
-v4l2-async.ko
 mtk-cam-isp7sp.ko
 imgsensor-glue.ko
 imgsensor.ko
