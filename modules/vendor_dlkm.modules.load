@@ -174,7 +174,6 @@ hbt.ko
 apu_top.ko
 apusys.ko
 widevine_driver.ko
-task_turbo.ko
 mtk_disp_sec.ko
 sec.ko
 mtk-mmdvfs-v3-start.ko
