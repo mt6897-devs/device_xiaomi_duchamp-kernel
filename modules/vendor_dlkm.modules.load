@@ -27,6 +27,7 @@ mtk-ssc.ko
 mtk-ssc-dbg-v2.ko
 trace_mmstat.ko
 ccmni.ko
+rps_perf.ko
 mtk-pwm.ko
 mtk_irtx_pwm.ko
 sspm_v3.ko
@@ -90,6 +91,9 @@ mtk-vcodec-common.ko
 mtk-vcodec-dec-v2.ko
 mtk-vcodec-enc-v2.ko
 jpeg-driver.ko
+powerhal_cpu_ctrl.ko
+cpufreq_sugov_ext.ko
+scheduler.ko
 cpuqos_v3.ko
 mtk_ccu.ko
 mtk-vmm-isp71-regulator.ko
@@ -109,6 +113,10 @@ mtk-cam-isp7sp.ko
 imgsensor-glue.ko
 imgsensor.ko
 camera_eeprom_v4l2.ko
+mtk_fpsgo.ko
+mtk_perf_ioctl.ko
+frs.ko
+mtk_perf_ioctl_magt.ko
 mtk-swpm.ko
 mtk-swpm-dbg-common-v1.ko
 mtk-swpm-dbg-v6897.ko
@@ -134,6 +142,9 @@ mtk-lpm-plat-v1.ko
 mtk-lpm-dbg-mt6897.ko
 fmradio_drv_connac2x.ko
 mtk_qos.ko
+touch_boost.ko
+mtk_ioctl_touch_boost.ko
+mtk_ioctl_powerhal.ko
 hf_manager.ko
 sensorhub.ko
 mtk-composite.ko
@@ -160,6 +171,7 @@ main3_vcm.ko
 sub_vcm.ko
 pda_drv_mt6897.ko
 atf_logger.ko
+mtk_core_ctl.ko
 mtk-dvfsrc-start.ko
 bt_drv_6897.ko
 c2k_usb.ko
@@ -173,10 +185,14 @@ mtk-pm-domain-disable-unused.ko
 hbt.ko
 apu_top.ko
 apusys.ko
+task_turbo.ko
+mtk_perf_common.ko
 widevine_driver.ko
 mtk_disp_sec.ko
 sec.ko
 mtk-mmdvfs-v3-start.ko
+uload_ind.ko
+load_track.ko
 mtk_mbraink.ko
 focaltech_touch.ko
 xiaomi_touch.ko
